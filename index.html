@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample Semantic HTML5 Web Page</title>
+  <meta name="description" content="A simple, accessible, and SEO-friendly web page demonstrating HTML5 semantic structure." />
+  <meta name="keywords" content="HTML5, Accessibility, SEO, Semantic Web, Web Design" />
+  <meta name="author" content="Your Name" />
+</head>
+<body>
+  <header role="banner">
+    <h1>Welcome to My Semantic HTML5 Page</h1>
+    <nav role="navigation" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#content">Main Content</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="intro" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction to Semantic HTML5</h2>
+      <p>
+        Semantic HTML5 provides meaningful elements that describe the structure and content of a web page, improving
+        accessibility and SEO.
+      </p>
+    </section>
+
+    <article id="content" aria-labelledby="content-heading">
+      <h2 id="content-heading">Why Accessibility and SEO Matter</h2>
+      <p>
+        Building accessible websites ensures everyone can use your content, including people with disabilities.
+        SEO helps search engines understand your content better, boosting visibility.
+      </p>
+      <h3>Accessibility Features</h3>
+      <ul>
+        <li>Proper use of landmarks and headings</li>
+        <li>Descriptive link text</li>
+        <li>Use of ARIA roles where needed</li>
+      </ul>
+      <h3>SEO Basics</h3>
+      <ul>
+        <li>Meaningful titles and meta descriptions</li>
+        <li>Logical heading hierarchy</li>
+        <li>Readable, descriptive content</li>
+      </ul>
+    </article>
+
+    <section id="resources" aria-labelledby="resources-heading">
+      <h2 id="resources-heading">Helpful Resources</h2>
+      <p>Explore these links to learn more about semantic HTML, accessibility, and SEO:</p>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank" rel="noopener noreferrer">MDN HTML Elements Reference</a></li>
+        <li><a href="https://www.w3.org/WAI/standards-guidelines/" target="_blank" rel="noopener noreferrer">W3C Web Accessibility Initiative</a></li>
+        <li><a href="https://developers.google.com/search/docs/beginner/seo-starter-guide" target="_blank" rel="noopener noreferrer">Google SEO Starter Guide</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
